@@ -1,7 +1,7 @@
 {
-    "name": "react-native-adjust",
+    "name": "@appchoose/adjust-react-native-sdk",
     "description": "Adjust React Native SDK",
-    "version": "5.4.0",
+    "version": "5.4.3",
     "main": "index.js",
     "author": "Adjust",
     "license": "MIT",
@@ -11,12 +11,28 @@
         "android",
         "adjust"
     ],
-    "homepage": "https://github.com/adjust/react_native_sdk",
+    "homepage": "https://github.com/appchoose/adjust-react-native-sdk",
     "bugs": {
-        "url": "https://github.com/adjust/react_native_sdk/issues"
+        "url": "https://github.com/appchoose/adjust-react-native-sdk/issues"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/adjust/react_native_sdk.git"
+    "repository": "https://github.com/appchoose/adjust-react-native-sdk",
+    "directories": {
+        "example": "example",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "semantic-release"
+    },
+    "types": "./index.d.ts",
+    "dependencies": {
+        "semantic-release": "24.2.6"
+    },
+    "devDependencies": {
+        "@semantic-release/changelog": "6.0.3",
+        "@semantic-release/git": "10.0.1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     }
 }

@@ -1,4 +1,4 @@
-declare module 'react-native-adjust' {
+declare module '@appchoose/adjust-react-native-sdk' {
   type Environment = 'sandbox' | 'production'
   type LogLevel = string
 
@@ -236,6 +236,7 @@ declare module 'react-native-adjust' {
     getAppTrackingAuthorizationStatus: (callback: (status: number) => void) => void
     trackThirdPartySharing: (adjustThirdPartySharing: AdjustThirdPartySharing) => void
     trackMeasurementConsent: (measurementConsent: boolean) => void
+    resolveLinkWithUrl: (url: string, resolveUrlSuffixArray: string[], callback: (resolvedLink: string) => void) => void
     getLastDeeplink: (callback: (lastDeeplink: string) => void) => void
     verifyAppStorePurchase: (purchase: AdjustAppStorePurchase, callback: (verificationResult: AdjustPurchaseVerificationResult) => void) => void
     verifyAndTrackAppStorePurchase: (adjustEvent: AdjustEvent, callback: (verificationResult: AdjustPurchaseVerificationResult) => void) => void

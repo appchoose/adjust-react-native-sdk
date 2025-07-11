@@ -99,9 +99,6 @@ ios/Index/
 # Just in case
 temp/
 
-# yarn
-yarn.lock
-
 #example
 example/.yarn
 
@@ -109,3 +106,4 @@ example/.yarn
 Test/app/.yarn
 test/app/ios/.xcode.env
 test/app/ios/.xcode.env.local
+node_modules
