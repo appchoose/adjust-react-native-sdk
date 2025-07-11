@@ -236,7 +236,6 @@ declare module 'react-native-adjust' {
     getAppTrackingAuthorizationStatus: (callback: (status: number) => void) => void
     trackThirdPartySharing: (adjustThirdPartySharing: AdjustThirdPartySharing) => void
     trackMeasurementConsent: (measurementConsent: boolean) => void
-    // test
     resolveLinkWithUrl: (url: string, resolveUrlSuffixArray: string[], callback: (resolvedLink: string) => void) => void
     getLastDeeplink: (callback: (lastDeeplink: string) => void) => void
     verifyAppStorePurchase: (purchase: AdjustAppStorePurchase, callback: (verificationResult: AdjustPurchaseVerificationResult) => void) => void
