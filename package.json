@@ -11,12 +11,12 @@
         "android",
         "adjust"
     ],
-    "homepage": "https://github.com/adjust/react_native_sdk",
+    "homepage": "https://github.com/appchoose/adjust-react-native-sdk",
     "bugs": {
-        "url": "https://github.com/adjust/react_native_sdk/issues"
+        "url": "https://github.com/appchoose/adjust-react-native-sdk/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/adjust/react_native_sdk.git"
+        "url": "git@github.com:appchoose/adjust-react-native-sdk.git"
     }
 }
