@@ -1,5 +1,5 @@
 {
-    "name": "react-native-adjust",
+    "name": "adjust-react-native-sdk",
     "description": "Adjust React Native SDK",
     "version": "5.4.1",
     "main": "index.js",
@@ -17,6 +17,22 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:appchoose/adjust-react-native-sdk.git"
+        "url": "git+ssh://git@github.com/appchoose/adjust-react-native-sdk.git"
+    },
+    "directories": {
+        "example": "example",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "semantic-release"
+    },
+    "types": "./index.d.ts",
+    "dependencies": {
+        "semantic-release": "24.2.6"
+    },
+    "devDependencies": {
+        "@semantic-release/changelog": "6.0.3",
+        "@semantic-release/git": "10.0.1"
     }
 }
