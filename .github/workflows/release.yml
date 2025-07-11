@@ -26,4 +26,3 @@ jobs:
         run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.APPCHOOSE_GITHUB_TOKEN_RELEASER }}
-          NPM_TOKEN: ${{ secrets.APPCHOOSE_GITHUB_TOKEN_RELEASER }}
