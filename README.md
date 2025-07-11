@@ -5,3 +5,4 @@ This is the [Adjust](https://adjust.com)™  SDK for React Native. Documentation
 ## License
 
 Distributed under the [`MIT license`](LICENSE).
+
